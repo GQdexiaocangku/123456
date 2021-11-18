@@ -1,0 +1,1000 @@
+ 1071  vim APPVERINFO 
+ 1072  sync
+ 1073  ls
+ 1074  cat FSVERINFO 
+ 1075  cat APPVERINFO 
+ 1076  ls
+ 1077  tar jcvf rootfs.tar.bz2 **
+ 1078  ls -l
+ 1079  cd /mnt/
+ 1080  ls
+ 1081  cd DA-Family-875/
+ 1082  ls
+ 1083  ls -l
+ 1084  cd filesystem/
+ 1085  ls
+ 1086  cd rootfs_rel/
+ 1087  ls
+ 1088  ls -l
+ 1089  ls
+ 1090  cd /mnt/
+ 1091  ls
+ 1092  cd DA-Family
+ 1093  ls
+ 1094  ls
+ 1095  tar jxvf rootfs.tar.bz2 
+ 1096  ls
+ 1097  ls -l
+ 1098  minicom
+ 1099  tar jxvf rma1.tar.bz2 
+ 1100  ls
+ 1101  rm rma1.tar.bz2 
+ 1102  ls
+ 1103  cd ..
+ 1104  ls
+ 1105  cd rma1/
+ 1106  cd ..
+ 1107  ls
+ 1108  chmod 777 -R rma1/
+ 1109  ls
+ 1110  cd filesystem/
+ 1111  ls
+ 1112  cd rootfs_rel/
+ 1113  ls
+ 1114  cd /mnt/DA-Family
+ 1115  ls
+ 1116  cd rma1/
+ 1117  ls
+ 1118  cd arm/apl/
+ 1119  ls
+ 1120  cd src/
+ 1121  ls
+ 1122  ./ggg.sh 
+ 1123  source /mnt/yocto/4.1.15/toolchain/setup_env.sh
+ 1124  ./ggg.sh 
+ 1125  ls
+ 1126  cd /mnt/DA-Family
+ 1127  ls
+ 1128  cd filesystem/
+ 1129  ls
+ 1130  cd rootfs_rel/
+ 1131  ls
+ 1132  vim FSVERINFO 
+ 1133  vim APPVERINFO 
+ 1134  sync
+ 1135  ls
+ 1136  cat FSVERINFO 
+ 1137  cat APPVERINFO 
+ 1138  ls
+ 1139  tar jcvf rootfs.tar.bz2 **
+ 1140  sync
+ 1141  ls
+ 1142  tar jxvf rootfs.tar.bz2 
+ 1143  ls
+ 1144  rm rootfs.tar.bz2 
+ 1145  ls
+ 1146  minicom
+ 1147  cd /mnt/DA-Family/rma1/arm/apl/src/
+ 1148  ls
+ 1149  ./ggg.sh 
+ 1150  source /mnt/yocto/4.1.15/toolchain/setup_env.sh 
+ 1151  ./ggg.sh 
+ 1152  ls
+ 1153  cd /mnt/DA-Family
+ 1154  ls
+ 1155  cd filesystem/
+ 1156  ls
+ 1157  cd rootfs_rel/
+ 1158  ls
+ 1159  ls -l
+ 1160  ls
+ 1161  cd opt/ftl/
+ 1162  ls
+ 1163  cd apl/
+ 1164  ls
+ 1165  ls -l
+ 1166  ls
+ 1167  cd ..
+ 1168  ls
+ 1169  cd ..
+ 1170  ls
+ 1171  cd ..
+ 1172  ls
+ 1173  rm rootfs.tar.bz2 
+ 1174  ls
+ 1175  cat APPVERINFO 
+ 1176  ls
+ 1177  cd /mnt/DA-Family/filesystem/
+ 1178  ls
+ 1179  cd rootfs_rel/
+ 1180  ls
+ 1181  cd /mnt/DA-Family
+ 1182  ls
+ 1183  cd rma1/
+ 1184  ls
+ 1185  cd arm/
+ 1186  ls
+ 1187  cd apl/
+ 1188  ls
+ 1189  cd src/
+ 1190  ls
+ 1191  ./ggg.sh 
+ 1192  ls
+ 1193  cd /mnt/DA-Family
+ 1194  ls
+ 1195  cd filesystem/
+ 1196  ls
+ 1197  cd rootfs_rel/
+ 1198  ls
+ 1199  tar jcvf rootfs.tar.bz2 **
+ 1200  ls
+ 1201  minicom
+ 1202  cd /media/root/200A-A100/
+ 1203  ls
+ 1204  cat LOADING.KWI
+ 1205  touch LOADING.KWI
+ 1206  cd ..
+ 1207  umount 200A-A100
+ 1208  cd /mnt/DA-Family/
+ 1209  cd rma1/
+ 1210  ls
+ 1211  grep -nr "videoin_std_detected" ./
+ 1212  vi ./arm/apl/src/dis/Develop/LIB/Src/mxc_v4l2_tvin.c
+ 1213  grep -nr "41479" ./
+ 1214  vi ./arm/apl/src/dis/Develop/LIB/Src/mxc_v4l2_tvin.c
+ 1215  grep -nr "fc_dmk_DispVdoChk" ./
+ 1216  vi ./arm/apl/src/dis/Develop/PF/PF_DRW_MAK/Src/DmkMain.c
+ 1217  cd arm/apl/src/
+ 1218  ./ggg.sh 
+ 1219  source /mnt/yocto/4.1.15/toolchain/setup_env.sh 
+ 1220  ./ggg.sh 
+ 1221  cd ../release/apl/
+ 1222  ls
+ 1223  cp PROC_DISPLAY /media/root/200A-A100/
+ 1224  cp PROC_HMI /media/root/200A-A100/
+ 1225  sync
+ 1226  umount /media/root/200A-A100 
+ 1227  cd -
+ 1228  ls
+ 1229  grep -nr "fc_dmk_DispVdoChk" ./
+ 1230  vim ./dis/Develop/PF/PF_DRW_MAK/Src/DmkMain.c
+ 1231  grep -nr "fc_csw_RcvCamStsNty" ./
+ 1232  vi ./dis/Develop/PF/PF_DAT_MNG/Src/CswMain.c
+ 1233  ./ggg.sh 
+ 1234  cd -
+ 1235  ls
+ 1236  cp PROC_DISPLAY /media/root/200A-A100/
+ 1237  cp PROC_SYSTEM /media/root/200A-A100/
+ 1238  sync
+ 1239  umount /media/root/200A-A100 
+ 1240  cd -
+ 1241  grep -nr "BgmMsgSts" ./
+ 1242  vi ./dis/Develop/PF/PF_DAT_MNG/Src/CswMain.c
+ 1243  grep -nr "videoin_std_detected" ./
+ 1244  cd -
+ 1245  ls
+ 1246  cp PROC_MMP /media/root/200A-A100/
+ 1247  cp PROC_REPRO /media/root/200A-A100/
+ 1248  cp iap2_service /media/root/200A-A100/
+ 1249  sync
+ 1250  umount /media/root/200A-A100 
+ 1251  ls
+ 1252  cd /mnt/DA-Family
+ 1253  ls
+ 1254  cd filesystem/
+ 1255  ls
+ 1256  cd rootfs_rel/
+ 1257  LS
+ 1258  ls
+ 1259  cd -
+ 1260  ls
+ 1261  cd /mnt/DA-Family/rma1/arm/apl/release/
+ 1262  ls
+ 1263  cd apl/
+ 1264  ls
+ 1265  cp PROC_DISPLAY /media/root/200A-A100/
+ 1266  sync
+ 1267  cp * /media/root/200A-A100/
+ 1268  umount /media/root/200A-A100 
+ 1269  cd /mnt/DA-Family/filesystem/rootfs_rel/
+ 1270  ls
+ 1271  rm rootfs.tar.bz2 
+ 1272  history
+ 1273  tar -jcvf rootfs.tar.bz2 *
+ 1274  echo >/root/temp1.txt 
+ 1275  ls
+ 1276  rm -rf rootfs.tar.bz2 
+ 1277  rm -rf rootfs/
+ 1278  ls
+ 1279  cd /media/root/GUOQING/
+ 1280  ls
+ 1281  cp rootfs.tar.bz2 /mnt/
+ 1282  sync
+ 1283  cd /mnt/rootfs/
+ 1284  ls
+ 1285  cat APPVERINFO 
+ 1286  cat FSVERINFO 
+ 1287  ls
+ 1288  tar cjvf rootfs.tar.bz2 *
+ 1289  ls
+ 1290  mv rootfs.tar.bz2 /media/root/GUOQING/
+ 1291  ls
+ 1292  rm -rf rootfs.tar.bz2 
+ 1293  ls
+ 1294  cd /media/root/GUOQING/
+ 1295  ls
+ 1296  rm -rf rootfs.tar.bz2 
+ 1297  ls
+ 1298  cd /mnt/
+ 1299  ls
+ 1300  cd rootfs/
+ 1301  ls
+ 1302  tar cjvf rootfs.tar.bz2 *
+ 1303  ls
+ 1304  mv rootfs.tar.bz2 /media/root/GUOQING/
+ 1305  sync
+ 1306  ls
+ 1307  umount /media/root/GUOQING
+ 1308  cd 
+ 1309  minicom
+ 1310  ls
+ 1311  mv rma1.tar.bz2 /mnt/DA-Family
+ 1312  LS
+ 1313  ls
+ 1314  mv
+ 1315  sync
+ 1316  mv u-boot_2015.04.tar.bz2 /mnt/DA-Family
+ 1317  sync
+ 1318  mv rootfs.tar.bz2 /mnt/DA-Family/filesystem/
+ 1319  sync
+ 1320  mv rootfs_Debug.tar.bz2 /mnt/DA-Family/filesystem/
+ 1321  sync
+ 1322  mv linux-4.1.15.tar.bz2 /mnt/DA-Family/kernel/
+ 1323  sync
+ 1324  ls
+ 1325  rm -rf quickboot_image_A 
+ 1326  ls
+ 1327  rm -rf quickboot_image_B 
+ 1328  rm -rf rootfs_image 
+ 1329  ls
+ 1330  du -sh
+ 1331  du -sh *
+ 1332  ls
+ 1333  tar cjvf rma1.tar.bz2 *
+ 1334  ls
+ 1335  mv rma1.tar.bz2 /media/root/GUOQING/
+ 1336  sync
+ 1337  cd ..
+ 1338  cd filesystem/
+ 1339  cd rootfs
+ 1340  ls
+ 1341  mv rootfs_Debug.tar.bz2 /media/root/GUOQING/
+ 1342  sync
+ 1343  umount /media/root/GUOQING
+ 1344  cd arm/apl/src/
+ 1345  ./ggg.sh 
+ 1346  source /mnt/yocto/4.1.15/toolchain/setup_env.sh 
+ 1347  ./ggg.sh 
+ 1348  cd ../../..
+ 1349  cd ..
+ 1350  cd filesystem/
+ 1351  cd rootfs_rel/
+ 1352  ls
+ 1353  cat APPVERINFO 
+ 1354  cat FSVERINFO 
+ 1355  tar cjvf rootfs.tar.bz2 *
+ 1356  ls
+ 1357  mv rootfs.tar.bz2 /media/root/GUOQING/
+ 1358  sync
+ 1359  umount /media/root/GUOQING
+ 1360  ls
+ 1361  mv rma1.tar.bz2 /mnt/DA-Family
+ 1362  sync
+ 1363  ls
+ 1364  mv rootfs.tar.bz2 /mnt/DA-Family
+ 1365  sync
+ 1366  ls
+ 1367  mv rootfs_Debug.tar.bz2 /mnt/DA-Family
+ 1368  sync
+ 1369  ls
+ 1370  rm -rf u-boot_2015.04.tar.bz2 /mnt/DA-Family
+ 1371  ls
+ 1372  mv linux-4.1.15.tar.bz2 /mnt/DA-Family
+ 1373  sync
+ 1374  umount /media/root/GUOQING
+ 1375  cd 
+ 1376  umount /media/root/GUOQING
+ 1377  cd /media/root/GUOQING/
+ 1378  ls
+ 1379  mv rma1.tar.bz2 /mnt/DA-Family
+ 1380  sync
+ 1381  mv rootfs.tar.bz2 /mnt/DA-Family
+ 1382  sync
+ 1383  mv rootfs_Debug.tar.bz2 /mnt/DA-Family
+ 1384  sync
+ 1385  ls
+ 1386  mv u-boot_2015.04.tar.bz2 /mnt/DA-Family
+ 1387  sync
+ 1388  cd /mnt/DA-Family
+ 1389  ls
+ 1390  rm -rf rma1.tar.bz2 
+ 1391  rm -rf u-boot_2015.04.tar.bz2 
+ 1392  sync
+ 1393  ls
+ 1394  cd kernel/
+ 1395  ls
+ 1396  sync
+ 1397  ls
+ 1398  rm -rf linux-4.1.15.tar.bz2 
+ 1399  ls
+ 1400  sync
+ 1401  cd ..
+ 1402  cd filesystem/
+ 1403  ls
+ 1404  rm -rf rootfs.tar.bz2 
+ 1405  ls
+ 1406  sync
+ 1407  rm -rf rootfs_Debug.tar.bz2 
+ 1408  ls
+ 1409  tar cjvf rma1.tar.bz2 *
+ 1410  ls
+ 1411  mv rma1.tar.bz2 /media/root/GUOQING/
+ 1412  sync
+ 1413  cd ..
+ 1414  cd filesystem/
+ 1415  cd rootfs
+ 1416  ls
+ 1417  cat APPVERINFO 
+ 1418  tar cjvf rootfs_Debug.tar.bz2 *
+ 1419  ls
+ 1420  mv rootfs_Debug.tar.bz2 /media/root/GUOQING/
+ 1421  sync
+ 1422  umount /media/root/GUOQING
+ 1423  ls
+ 1424  rm -rf *
+ 1425  ls
+ 1426  ls
+ 1427  tar cjvf rma1.tar.bz2 *
+ 1428  ls
+ 1429  mv rma1.tar.bz2 /media/root/021D-5B41/
+ 1430  sync
+ 1431  cd ..
+ 1432  cd filesystem/
+ 1433  ls
+ 1434  cd rootfs
+ 1435  ls
+ 1436  cat FSVERINFO 
+ 1437  cat APPVERINFO 
+ 1438  ls
+ 1439  tar cjvf rootfs_Debug.tar.bz2 *
+ 1440  ls
+ 1441  mv rootfs_Debug.tar.bz2 /media/root/021D-5B41/
+ 1442  sync
+ 1443  umount /media/root/021D-5B41
+ 1444  cd ..
+ 1445  ls
+ 1446  rm -rf *
+ 1447  ls
+ 1448  cd /media/root/GUOQING/
+ 1449  ls
+ 1450  mv rma1.tar.bz2 /mnt/DA-Family
+ 1451  ls
+ 1452  sync
+ 1453  mv rootfs.tar.bz2 /mnt/DA-Family
+ 1454  sync
+ 1455  mv rootfs_Debug.tar.bz2 /mnt/DA-Family
+ 1456  sync
+ 1457  mv u-boot_2015.04.tar.bz2 /mnt/DA-Family
+ 1458  sync
+ 1459  mv linux-4.1.15.tar.bz2 /mnt/DA-Family
+ 1460  sync
+ 1461  cd /mnt/DA-Family
+ 1462  ls
+ 1463  rm -rf u-boot_2015.04.tar.bz2 
+ 1464  ls
+ 1465  cd kernel/
+ 1466  ls
+ 1467  rm -rf linux-4.1.15.tar.bz2 
+ 1468  ls
+ 1469  cd ..
+ 1470  cd filesystem/
+ 1471  ls
+ 1472  cd ..
+ 1473  ls
+ 1474  rm -rf rma1.tar.bz2 
+ 1475  ls
+ 1476  cd filesystem/
+ 1477  ls
+ 1478  rm -rf rootfs.tar.bz2 
+ 1479  ls
+ 1480  sync
+ 1481  ls
+ 1482  rm -rf rootfs_Debug.tar.bz2 
+ 1483  sync
+ 1484  cd ..
+ 1485  cd rma1/
+ 1486  ls
+ 1487  cd arm/apl/src/
+ 1488  ./ggg.sh 
+ 1489  source /mnt/yocto/4.1.15/toolchain/setup_env.sh 
+ 1490  ./ggg.sh 
+ 1491  ls
+ 1492  cd ../../..
+ 1493  cd ..
+ 1494  cd filesystem/
+ 1495  ls
+ 1496  cd rootfs_rel/
+ 1497  ls
+ 1498  cat APPVERINFO 
+ 1499  cat FSVERINFO 
+ 1500  tar cjvf rootfs.tar.bz2 *
+ 1501  ls
+ 1502  mv rootfs.tar.bz2 /media/root/GUOQING/
+ 1503  sync
+ 1504  ls
+ 1505  cd ..
+ 1506  cd rootfs
+ 1507  ls
+ 1508  cat APPVERINFO 
+ 1509  tar cjvf rootfs_Debug.tar.bz2 *
+ 1510  ls
+ 1511  rm -rf *
+ 1512  cd /media/root/GUOQING/
+ 1513  ls
+ 1514  mv rma1.tar.bz2 /mnt/DA-Family
+ 1515  sync
+ 1516  ls
+ 1517  mv linux-4.1.15.tar.bz2 /mnt/DA-Family
+ 1518  sync
+ 1519  ls
+ 1520  mv u-boot_2015.04.tar.bz2 /mnt/DA-Family
+ 1521  sync
+ 1522  mv rootfs.tar.bz2 /mnt/DA-Family
+ 1523  sync
+ 1524  mv rootfs_Debug.tar.bz2 /mnt/DA-Family
+ 1525  sync
+ 1526  ls
+ 1527  rm -rf rma1.tar.bz2 
+ 1528  rm -rf u-boot_2015.04.tar.bz2 
+ 1529  cd kernel/
+ 1530  ls
+ 1531  sync
+ 1532  ls
+ 1533  rm -rf linux-4.1.15.tar.bz2 
+ 1534  sync
+ 1535  cd ..
+ 1536  cd filesystem/
+ 1537  ls
+ 1538  sync
+ 1539  rm -rf rootfs.tar.bz2 
+ 1540  sync
+ 1541  ls
+ 1542  rm -rf rootfs_Debug.tar.bz2 
+ 1543  cd ..
+ 1544  cd rma1/
+ 1545  cd arm/apl/src/
+ 1546  ./ggg.sh 
+ 1547  source /mnt/yocto/4.1.15/toolchain/setup_env.sh 
+ 1548  ./ggg.sh 
+ 1549  ls
+ 1550  cd /mnt/DA-Family/filesystem/rootfs_rel/
+ 1551  ls
+ 1552  cat APPVERINFO 
+ 1553  tar cjvf rootfs.tar.bz2 *
+ 1554  ls
+ 1555  mv rootfs.tar.bz2 /media/root/GUOQING/
+ 1556  sync
+ 1557  cd ..
+ 1558  ls
+ 1559  cd rootfs
+ 1560  ls
+ 1561  cat APPVERINFO 
+ 1562  tar cjvf rootfs_Debug.tar.bz2 *
+ 1563  ls
+ 1564  mv rootfs_Debug.tar.bz2 /media/root/GUOQING/
+ 1565  sync
+ 1566  cd ..
+ 1567  cd rma1/
+ 1568  ls
+ 1569  tar cjvf rma1.tar.bz2 *
+ 1570  ls
+ 1571  mv rma1.tar.bz2 /media/root/GUOQING/
+ 1572  sync
+ 1573  umount /media/root/GUOQING
+ 1574  ls
+ 1575  ls
+ 1576  rm -rf rootfs/
+ 1577  ls
+ 1578  rm -rf rootfs.tar.bz2 
+ 1579  cd DA-Family
+ 1580  cd ..
+ 1581  cd DA-Family
+ 1582  ls
+ 1583  cd filesystem/
+ 1584  ls
+ 1585  cd rootfs_rel/
+ 1586  ls
+ 1587  cat FSVERINFO 
+ 1588  cd ..
+ 1589  ls
+ 1590  rm -rf *
+ 1591  cd ..
+ 1592  cd kernel/
+ 1593  ls
+ 1594  rm -rf *
+ 1595  cd ..
+ 1596  rm -rf rma1/
+ 1597  cd u-boot_2015.04/
+ 1598  ls
+ 1599  cd ..
+ 1600  ls
+ 1601  rm -rf u-boot_2015.04/
+ 1602  cd 
+ 1603  cd /mnt/DA-Family
+ 1604  ls
+ 1605  rm -rf rma1.tar.bz2 
+ 1606  rm -rf u-boot_2015.04.tar.bz2 
+ 1607  ls
+ 1608  cd kernel/
+ 1609  ls
+ 1610  rm -rf linux-4.1.15.tar.bz2 
+ 1611  cd ..
+ 1612  cd filesystem/
+ 1613  ls
+ 1614  rm -rf rootfs.tar.bz2 
+ 1615  ls
+ 1616  rm -rf rootfs_Debug.tar.bz2 
+ 1617  cd .
+ 1618  cd ..
+ 1619  cd rma1/
+ 1620  ls
+ 1621  cd arm/apl/src/
+ 1622  ./ggg.sh 
+ 1623  source /mnt/yocto/4.1.15/toolchain/setup_env.sh 
+ 1624  ./ggg.sh 
+ 1625  cd ../../..
+ 1626  cd ..
+ 1627  cd filesystem/
+ 1628  ls
+ 1629  cd rootfs_rel/
+ 1630  ls
+ 1631  cat APPVERINFO 
+ 1632  ls
+ 1633  tar cjvf rootfs.tar.bz2 *
+ 1634  ls
+ 1635  mv rootfs.tar.bz2 /media/root/GUOQING/
+ 1636  sync
+ 1637  umount /media/root/GUOQING
+ 1638  cd 
+ 1639  minicom
+ 1640  cd 
+ 1641  mkdir aaa
+ 1642  touch aaa
+ 1643  ls
+ 1644  rm -rf aaa/
+ 1645  ls
+ 1646  rm -rf *
+ 1647  cd /media/root/GUOQING/
+ 1648  ls
+ 1649  mv rma1.tar.bz2 /mnt/DA-Family
+ 1650  sync
+ 1651  ls
+ 1652  mv rootfs.tar.bz2 /mnt/DA-Family
+ 1653  sync
+ 1654  ls
+ 1655  mv rootfs_Debug.tar.bz2 /mnt/DA-Family
+ 1656  sync
+ 1657  ls
+ 1658  mv linux-4.1.15.tar.bz2 /mnt/DA-Family
+ 1659  sync
+ 1660  ls
+ 1661  mv u-boot_2015.04.tar.bz2 /mnt/DA-Family
+ 1662  sync
+ 1663  cd /mnt/DA-Family
+ 1664  ls
+ 1665  sync
+ 1666  rm -rf rma1.tar.bz2 
+ 1667  ls
+ 1668  sync
+ 1669  ls
+ 1670  rm -rf u-boot_2015.04.tar.bz2 
+ 1671  cd kernel/
+ 1672  ls
+ 1673  sync
+ 1674  ls
+ 1675  rm -rf linux-4.1.15.tar.bz2 
+ 1676  ls
+ 1677  cd ..
+ 1678  cd filesystem/
+ 1679  ls
+ 1680  sync
+ 1681  ls
+ 1682  sync
+ 1683  ls
+ 1684  rm -rf rootfs.tar.bz2 
+ 1685  ls
+ 1686  rm -rf rootfs_Debug.tar.bz2 
+ 1687  ls
+ 1688  cd ..
+ 1689  cd rma1/
+ 1690  ls
+ 1691  cd arm/apl/src/
+ 1692  ./ggg.sh 
+ 1693  source /mnt/yocto/4.1.15/toolchain/setup_env.sh 
+ 1694  ./ggg.sh 
+ 1695  ls
+ 1696  cd ../../../..
+ 1697  cd filesystem/
+ 1698  cd rootfs_rel/
+ 1699  ls
+ 1700  cat APPVERINFO 
+ 1701  tar cjvf rootfs.tar.bz2 *
+ 1702  ls
+ 1703  mv rootfs.tar.bz2 /media/root/GUOQING/
+ 1704  sync
+ 1705  umount /media/root/GUOQING
+ 1706  cd ..
+ 1707  ls
+ 1708  cd rootfs
+ 1709  ls
+ 1710  cat APPVERINFO 
+ 1711  tar cjvf rootfs_Debug.tar.bz2 *
+ 1712  ls
+ 1713  mv rootfs_Debug.tar.bz2 /media/root/GUOQING/
+ 1714  sync
+ 1715  cd ..
+ 1716  cd rma1/
+ 1717  ls
+ 1718  tar cjvf rma1.tar.bz2 *
+ 1719  ls
+ 1720  mv rma1.tar.bz2 /media/root/GUOQING/
+ 1721  sync
+ 1722  umount /media/root/GUOQING
+ 1723  cd ..
+ 1724  ls
+ 1725  rm -rf *
+ 1726  ls
+ 1727  cd /media/root/GUOQING/
+ 1728  ls
+ 1729  mv rma1.tar.bz2 /mnt/DA-Family
+ 1730  sync
+ 1731  ls
+ 1732  mv rootfs.tar.bz2 /mnt/DA-Family
+ 1733  sync
+ 1734  ls
+ 1735  mv linux-4.1.15.tar.bz2 /mnt/DA-Family
+ 1736  sync
+ 1737  ls
+ 1738  mv u-boot_2015.04.tar.bz2 /mnt/DA-Family
+ 1739  sync
+ 1740  mv rootfs_Debug.tar.bz2 /mnt/DA-Family
+ 1741  sync
+ 1742  cd /mnt/DA-Family
+ 1743  sync
+ 1744  ls
+ 1745  rm -rf rma1.tar.bz2 
+ 1746  ls
+ 1747  rm -rf u-boot_2015.04.tar.bz2 
+ 1748  ls
+ 1749  cd kernel/
+ 1750  sync
+ 1751  ls
+ 1752  rm -rf linux-4.1.15.tar.bz2 
+ 1753  ls
+ 1754  cd .
+ 1755  cd ..
+ 1756  cd filesystem/
+ 1757  ls
+ 1758  sync
+ 1759  ls
+ 1760  rm -rf rootfs.tar.bz2 
+ 1761  rm -rf rootfs_Debug.tar.bz2 
+ 1762  ls
+ 1763  cd ../
+ 1764  cd rma1/arm/apl/src/
+ 1765  ./ggg.sh 
+ 1766  cd ../../..
+ 1767  cd ..
+ 1768  cd filesystem/
+ 1769  ls
+ 1770  cd rootfs_rel/
+ 1771  ls
+ 1772  cat APPVERINFO 
+ 1773  tar cjvf rootfs.tar.bz2 *
+ 1774  ls
+ 1775  mv rootfs.tar.bz2 /media/root/GUOQING/
+ 1776  sync
+ 1777  umount /media/root/GUOQING 
+ 1778  cat APPVERINFO 
+ 1779  ls
+ 1780  tar cjvf rma1.tar.bz2 *
+ 1781  ls
+ 1782  mv rma1.tar.bz2 /media/root/GUOQING/
+ 1783  sync
+ 1784  cd ..
+ 1785  cd filesystem/
+ 1786  cd rootfs
+ 1787  cat APPVERINFO 
+ 1788  ls
+ 1789  tar cjvf rootfs_Debug.tar.bz2 *
+ 1790  ls
+ 1791  mv rootfs_Debug.tar.bz2 /media/root/GUOQING/
+ 1792  sync
+ 1793  umount /media/root/GUOQING 
+ 1794  ll
+ 1795  cd 
+ 1796  git init
+ 1797  git add *
+ 1798  git status --uno
+ 1799  git status --nuo
+ 1800  git status
+ 1801  ll
+ 1802  rm -rf .git/
+ 1803  cd rma1/
+ 1804  ls
+ 1805  git init
+ 1806  git add *
+ 1807  git status
+ 1808  vim 
+ 1809  find . -iname "Menu.cpp"
+ 1810  vim arm/apl/src/hmi/Project/DRW_DAT_MNG/scn_Menu/Menu.cpp
+ 1811  ls
+ 1812  chmod -R 777 *
+ 1813  vim arm/apl/src/hmi/Project/DRW_DAT_MNG/scn_Menu/Menu.cpp
+ 1814  git add arm/apl/src/hmi/Project/DRW_DAT_MNG/scn_Menu/Menu.cpp
+ 1815  git status
+ 1816  git reset
+ 1817  git status
+ 1818  ls
+ 1819  ll
+ 1820  rm -rf .git/
+ 1821  ls
+ 1822  chmod -R 777 *
+ 1823  ls
+ 1824  git init
+ 1825  git add *
+ 1826  git status
+ 1827  git commit -m "org version"
+ 1828  git log
+ 1829  find . -iname "Menu.cpp"
+ 1830  vim arm/apl/src/hmi/Project/DRW_DAT_MNG/scn_Menu/Menu.cpp
+ 1831  git status
+ 1832  git checkout --arm/apl/src/hmi/Project/DRW_DAT_MNG/scn_Menu/Menu.cpp
+ 1833  git checkout -- arm/apl/src/hmi/Project/DRW_DAT_MNG/scn_Menu/Menu.cpp
+ 1834  git status
+ 1835  vim arm/apl/src/hmi/Project/DRW_DAT_MNG/scn_Menu/Menu.cpp
+ 1836  git status
+ 1837  git add arm/apl/src/hmi/Project/DRW_DAT_MNG/scn_Menu/Menu.cpp
+ 1838  git status
+ 1839  git commit -m "test version"
+ 1840  git log
+ 1841  git tag -a v1.0 891d
+ 1842  git log
+ 1843  git log --decorate
+ 1844  git tag
+ 1845  git tag -a v1.0 -m
+ 1846  git tag -a v1.0 -n
+ 1847  git tag -l v1.0 -n
+ 1848  git tag -l v1.0
+ 1849  git tag -l v1.0 -n
+ 1850  git tag -a v0.0 3c55
+ 1851  git log --decorate
+ 1852  git tag -l V0.0 -n
+ 1853  git tag -l v0.0 -n
+ 1854  git tag
+ 1855  git tag -d v0.0
+ 1856  git tag
+ 1857  git show v1.0
+ 1858  cd
+ 1859  ls
+ 1860  cp 21mm_keys/ /media/root/0015-666E/ -r
+ 1861  l
+ 1862  ls
+ 1863  cd /media/root/0015-666E/
+ 1864  ls
+ 1865  ls 21mm_keys/
+ 1866  ls
+ 1867  umount /media/root/0015-666E 
+ 1868  cd
+ 1869  umount /media/root/0015-666E 
+ 1870  cd P4_WORKSPACE/
+ 1871  ls
+ 1872  cd 617AVN-Trunk/
+ 1873  ls
+ 1874  cd rma1/
+ 1875  ls
+ 1876  ll
+ 1877  git log
+ 1878  git diff 3c55 891d
+ 1879  git log
+ 1880  git diff 3c55 891d
+ 1881  git log
+ 1882  git status
+ 1883  vim arm/apl/src/hmi/Project/DRW_DAT_MNG/scn_Menu/Menu.cpp
+ 1884  git status
+ 1885  git checkout --arm/apl/src/hmi/Project/DRW_DAT_MNG/scn_Menu/Menu.cpp
+ 1886  git checkout arm/apl/src/hmi/Project/DRW_DAT_MNG/scn_Menu/Menu.cpp
+ 1887  git status
+ 1888  find . -iname "cswmain.c"
+ 1889  vim arm/apl/src/dis/Develop/PF/PF_DAT_MNG/Src/CswMain.c
+ 1890  git status
+ 1891  git add arm/apl/src/dis/Develop/PF/PF_DAT_MNG/Src/CswMain.c
+ 1892  git status
+ 1893  git reset HEAD arm/apl/src/dis/Develop/PF/PF_DAT_MNG/Src/CswMain.c
+ 1894  git status
+ 1895  find . -iname "cswswusb.c" -exec vim {} 
+ 1896  find . -iname "cswswusb.c"-exec vim {} 
+ 1897  find . -iname "cswswusb.c"-exec {} vim 
+ 1898  find . -iname "cswswusb.c"-exec {} vim \;
+ 1899  find . -iname "cswswusb.c"-exec {} vi 
+ 1900  find . -iname "cswswusb.c" -exec {} vi 
+ 1901  find . -iname "cswswusb.c" -exec vi {} 
+ 1902  find . -iname "cswswusb..c"
+ 1903  find . -iname "cswswusb.c"
+ 1904  find . -iname "cswswusb.c" -exec vi {}
+ 1905  find . -iname "cswswusb.c" -exec vim {}\;
+ 1906  find . -iname "cswswusb.c" - exec vim {}\;
+ 1907  find . -iname "cswswusb.c" -exec vim {} \;
+ 1908  find . -iname "cswswusb.c" -exec vi {} \;
+ 1909  git status
+ 1910  git checkout arm/apl/src/dis/Develop/PF/PF_DAT_MNG/Src/CswMain.c
+ 1911  git status
+ 1912  git log
+ 1913  git branch
+ 1914  git diff 3c55 891d
+ 1915  git log
+ 1916  git config --global user.name "Guo"
+ 1917  git config --global email.name "123456789@qq.com"
+ 1918  git config
+ 1919  git config --list
+ 1920  git log
+ 1921  git config --list
+ 1922  git bash
+ 1923  git stash
+ 1924  git config user.name
+ 1925  git config user.email
+ 1926  git config --global user.email "123456789@qq.com"
+ 1927  git config user.email
+ 1928  git config --list
+ 1929  git log 
+ 1930  ll
+ 1931  ls
+ 1932  cp -r rootfs_rel/ /media/root/GUOQING/
+ 1933  cp -rf rootfs_rel/ /media/root/GUOQING/
+ 1934  cp -rf rootfs_rel /media/root/GUOQING/
+ 1935  cp -r rootfs_rel /media/root/GUOQING/
+ 1936  tar jcvfh rootfs.tar.bz2 **
+ 1937  ls
+ 1938  mv rootfs.tar.bz2 /media/root/UBUNTU\ 20_0/
+ 1939  sync
+ 1940  umount /media/root/UBUNTU\ 20_0 
+ 1941  cd /media/root/KINGSTON/
+ 1942  ls
+ 1943  cd ..
+ 1944  du -sh KINGSTON/
+ 1945  cd data/2000-mp3s/
+ 1946  ls
+ 1947  cd ..
+ 1948  ls
+ 1949  du -sh data/2000-mp3s/
+ 1950  cp -r data/2000-mp3s/ KINGSTON/
+ 1951  cd
+ 1952  umount /media/root/k
+ 1953  umount /media/root/KINGSTON 
+ 1954  ls
+ 1955  mkdir HellowWorld.java
+ 1956  ls
+ 1957  cd HellowWorld/
+ 1958  ls
+ 1959  touch HelloWorld.java
+ 1960  ls
+ 1961  javac HelloWorld.java 
+ 1962  java HelloWorld 
+ 1963  ls
+ 1964  touch Puppy.java
+ 1965  ls
+ 1966  vim Puppy.java 
+ 1967  javac Puppy.java 
+ 1968  ls
+ 1969  java Puppy 
+ 1970  vim Puppy.java 
+ 1971  javac Puppy.java 
+ 1972  java Puppy 
+ 1973  vim Puppy.java 
+ 1974  javac Puppy.java 
+ 1975  java Puppy 
+ 1976  vim Puppy.java 
+ 1977  javac Puppy.java 
+ 1978  java Puppy 
+ 1979  vim Puppy.java 
+ 1980  ls
+ 1981  java HelloWorld 
+ 1982  java Puppy 
+ 1983  cd 
+ 1984  ls
+ 1985  cd P4_WORKSPACE/
+ 1986  ls
+ 1987  cd 617AVN-Trunk/
+ 1988  ls
+ 1989  cd rma1/
+ 1990  ll
+ 1991  git log
+ 1992  git config --list
+ 1993  git log 
+ 1994  cd ..
+ 1995  cd 
+ 1996  cd s
+ 1997  ls
+ 1998  cd scripts/
+ 1999  ls
+ 2000  p4v
+ 2001  ll
+ 2002  git init
+ 2003  git add *
+ 2004  git status
+ 2005  git commit -m *
+ 2006  git log
+ 2007  git push HelloWorld.java https://github.com/GQdexiaocangku/GQdexiaocangku.git
+ 2008  git remote
+ 2009  git remote add https://github.com/GQdexiaocangku/GQdexiaocangku.git
+ 2010  git remote add org git@https://github.com/GQdexiaocangku/GQdexiaocangku.git
+ 2011  ssh-keygen -t rsa -C "guo_9504@126.com"
+ 2012  ll
+ 2013  ssh -T git@github.com
+ 2014  git add HelloWorld.java 
+ 2015  vim HelloWorld.java 
+ 2016  git status
+ 2017  git add HelloWorld.java 
+ 2018  git status
+ 2019  git commit -m "test"
+ 2020  git log
+ 2021  git remote add org git@github.com:GQdexiaocangku/GQdexiaocangku.git
+ 2022  git remote add test git@github.com:GQdexiaocangku/GQdexiaocangku.git
+ 2023  git push -u test master
+ 2024  git remote
+ 2025  git remote -v
+ 2026  git fetch test
+ 2027  git merge test/main
+ 2028  ls
+ 2029  cat README.md 
+ 2030  vim README.md 
+ 2031  cat README.md 
+ 2032  git add README.md 
+ 2033  vim README.md 
+ 2034  git status
+ 2035  git add README.md 
+ 2036  git status
+ 2037  git commit -m "push test"
+ 2038  git log
+ 2039  git push README.md test master
+ 2040  git push test master
+ 2041  ls
+ 2042  vim README.md 
+ 2043  git status
+ 2044  git add README.md 
+ 2045  git status
+ 2046  git commit -m "push test 2"
+ 2047  git push test master
+ 2048  vim HelloWorld.java 
+ 2049  git add HelloWorld.java 
+ 2050  git push test master
+ 2051  git commit -m "push again"
+ 2052  git log
+ 2053  git push test master
+ 2054  git remote -v
+ 2055  git remote rm org
+ 2056  git remote -v
+ 2057  ll
+ 2058  rm-rf .git/
+ 2059  rm -rf .git/
+ 2060  ls
+ 2061  ll
+ 2062  git init
+ 2063  ls
+ 2064  git add *
+ 2065  git commit -m "org version"
+ 2066  git log
+ 2067  git status
+ 2068  ls
+ 2069  git remote 
+ 2070  history >1
